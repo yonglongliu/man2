@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<manifest>
+  <remote fetch="ssh://git@github.com" name="yonglongliu"/>
+  <default remote="yonglongliu"  revision="master"/>
+
+<!-- code begin -->
+	<project name="abi" path="abi"/>
+   <project name="apps" path="apps"/> 
+   <project name="bionic" path="bionic"/>
+   <project name="bootable" path="bootable"/>
+   <project name="build" path="build"/>
+   <project name="chipram" path="chipram"/>
+   <project name="dalvik" path="dalvik"/>
+   <project name="developers" path="developers"/>
+   <project name="device" path="device"/>
+   <project name="external" path="external"/>
+   <project name="frameworks" path="frameworks"/>
+   <project name="gaia" path="gaia"/>
+   <project name="gonk-misc" path="gonk-misc"/>
+   <project name="hardware" path="hardware"/>
+   <project name="kernel" path="kernel"/>
+   <project name="libcore" path="libcore"/>
+   <project name="libnativehelper" path="libnativehelper"/>
+   <project name="librecovery" path="librecovery"/>
+   <project name="ndk" path="ndk"/>
+   <project name="prebuilts" path="prebuilts"/> 
+   <project name="rilproxy" path="rilproxy"/>
+   <project name="services" path="services"/>
+   <project name="sps.image" path="sps.image"/>
+   <project name="system" path="system"/>
+   <!-- compile tool  -->
+   <project name="tools" path="tools"/>
+   <project name="u-boot15" path="u-boot15"/>
+   <project name="u-boot64" path="u-boot64"/>
+   <project name="vendor" path="vendor"/>    
+  
+	<!-- fota tool -->
+   <project name="9820E_block" path="9820E_block"/>   
+  <!-- code end  -->
+</manifest>

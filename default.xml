@@ -36,5 +36,6 @@
   
 	<!-- fota tool -->
    <project name="9820E_block" path="9820E_block"/>   
+   <!--test1 -->
   <!-- code end  -->
 </manifest>
